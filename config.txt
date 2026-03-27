@@ -1,1 +1,2 @@
 browser = edge;
+browser = safari;
