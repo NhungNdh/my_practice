@@ -7,7 +7,6 @@ const PASSWORD = process.env.PASSWORD;
 function checkLogin(username, password) {
   if (!username || !password) {
     console.error("Error: USERNAME and PASSWORD environment variables are required.");
-    console.error("Usage: USERNAME=admin PASSWORD=secret123 node login_test.js");
     process.exit(1);
   }
 
