@@ -1,0 +1,11 @@
+# Avoid push heavy package
+node_modules/
+python_env/
+
+# Avoid push sensitive information
+.env
+secrets.txt
+
+# Avoid push log or self test result report
+/reports
+*.log
