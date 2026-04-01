@@ -9,3 +9,8 @@ secrets.txt
 # Avoid push log or self test result report
 /reports
 *.log
+
+# Avoid push search_test logs and output
+search_test.log
+/search_test
+search_test-results/
