@@ -5,6 +5,8 @@ python_env/
 # Avoid push sensitive information
 .env
 secrets.txt
+payment_secrets.txt
+*_secrets.txt
 
 # Avoid push log or self test result report
 /reports
